@@ -335,8 +335,10 @@ color: #757575;
       }
 
       .h1-background-section{
-        background: linear-gradient(to top, transparent, rgba(47, 48, 58, 0.4)),
+        background: linear-gradient(to top,rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url("../images/tło-h1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
         
         
 
